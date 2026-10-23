@@ -1,22 +1,35 @@
 # Cerbero
 
 ## OBJETIVOS 
-crie um site que vai controlar usuário e cadastro de uma empresa de logística, tais como entrada de pedidos e saídas de estoque e expedição.
-
+O Cerbero é um sistema web de gerenciamento e administração, desenvolvido para facilitar o controle de usuários, cadastros e solicitações de acesso.
+O sistema possui um painel administrativo (Dashboard) com uma interface moderna, organizada, responsiva e fácil de utilizar.
+O objetivo principal é centralizar informações, melhorar a segurança, organizar os dados e facilitar as atividades administrativas.
 ### STACK TECNÓLOGICO
-- Backend: PHP estruturado em sessões nativas
-- Banco de dados: MySQL (PDO para segurança)
-- Frontend: HTML5, PHP, CSS, Tailwind CSS
+Backend: PHP estruturado em sessões nativas.
+Banco de dados: MySQL com PDO para segurança.
+Frontend: HTML5, PHP, CSS e Tailwind CSS.
+Arquitetura: Separação entre conexão com banco de dados, processamento e interface.
+Autenticação: Controle de acesso utilizando sessões PHP.
+Hospedagem: Servidor web compatível com PHP e MySQL.
 
+FUNCIONALIDADES DO SISTEMA
 #### Regras de negocio (CORE) 
-
+Funcionalidades:
+°Exibir a quantidade total de usuários cadastrados.
+°Exibir a quantidade de registros cadastrados.Mostrar o status do sistema.
+°Exibir solicitações de acesso pendentes.
+°Apresentar uma mensagem de boas-vindas ao usuário.
+°Identificar o nome e o nível de acesso do usuário conectado.
 
 ##### Regras globais
-- Use sempre o mesmo PDO para conexão e quieres no MySQL para evitar SQL Injections
-- Mantenha o código limpo e comente apenas logicas complexas.
-- Separe os arquivos  de forma logica: um arquivo para conexão com a base (bd.php) e scrips de backend isolados em views em HTML5/PHP
-- Estilize as telas em tailwind de forma responsiva priorizando o MobileFrist.
-- Retorne sempre as mensagens de erros de forma claras na interface para o usuário (TOAST)
-- sempre trate as mensagens de caixa de mensagens de caixa de mensagens nativas de mensagens nativas do navegador em um MODAL
-
+-Mantenha o código limpo e comente apenas lógicas complexas.
+-Use sempre o mesmo PDO para conexão e queries no MySQL, utilizando consultas preparadas para evitar SQL Injection.
+-Separe os arquivos de forma lógica: um arquivo para conexão com o banco (bd.php), scripts de backend isolados e views em HTML5/PHP.
+-Estilize as telas com Tailwind CSS de forma responsiva, priorizando o Mobile First.
+-Retorne sempre mensagens de sucesso ou erro de forma clara na interface utilizando TOAST.
+-Substitua mensagens nativas do navegador por MODAIS personalizados.
+-Valide todos os dados recebidos pelo backend.
+-Nunca confie exclusivamente nas validações do frontend.
+-Utilize nomes de variáveis e funções claros e organizados.
+-Evite duplicação desnecessária de código.
 
