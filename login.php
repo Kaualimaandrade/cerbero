@@ -88,7 +88,7 @@ $tab = $_GET['tab'] ?? 'login';
                             <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"/></svg>
                             </div>
-                            <input id="email" name="email" type="email" required placeholder="admin@cerbero.com" class="w-full bg-slate-950/70 border border-slate-700/80 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl pl-11 pr-4 py-2.5 text-sm text-white placeholder-slate-500 transition">
+                            <input id="email" name="email" type="email" required placeholder="kaualimaandrade321@gmail.com" class="w-full bg-slate-950/70 border border-slate-700/80 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 rounded-xl pl-11 pr-4 py-2.5 text-sm text-white placeholder-slate-500 transition">
                         </div>
                     </div>
 
@@ -116,13 +116,13 @@ $tab = $_GET['tab'] ?? 'login';
                         <span>Acesso Rápido para Avaliação:</span>
                     </p>
                     <div class="grid grid-cols-2 gap-2">
-                        <button type="button" onclick="preencherLogin('admin@cerbero.com', 'admin123')" class="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 text-left border border-slate-700/60 transition group">
-                            <span class="block font-semibold text-indigo-300 group-hover:text-indigo-200">Administrador</span>
-                            <span class="block text-[11px] text-slate-400">admin@cerbero.com</span>
+                        <button type="button" onclick="preencherLogin('kaualimaandrade321@gmail.com', 'parceiro246')" class="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 text-left border border-indigo-500/30 transition group">
+                            <span class="block font-semibold text-indigo-300 group-hover:text-indigo-200">Kauan (Admin)</span>
+                            <span class="block text-[11px] text-slate-400 truncate">kaualimaandrade321...</span>
                         </button>
-                        <button type="button" onclick="preencherLogin('kauan@cerbero.com', 'admin123')" class="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 text-left border border-slate-700/60 transition group">
-                            <span class="block font-semibold text-emerald-300 group-hover:text-emerald-200">Líder Técnico</span>
-                            <span class="block text-[11px] text-slate-400">kauan@cerbero.com</span>
+                        <button type="button" onclick="preencherLogin('admin@cerbero.com', 'parceiro246')" class="p-2 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 text-left border border-slate-700/60 transition group">
+                            <span class="block font-semibold text-emerald-300 group-hover:text-emerald-200">Administrador</span>
+                            <span class="block text-[11px] text-slate-400">admin@cerbero.com</span>
                         </button>
                     </div>
                 </div>
